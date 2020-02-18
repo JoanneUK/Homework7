@@ -64,40 +64,18 @@ function writeFile(data) {
 
 ​
 ${data.description}
-​
-## Table of Contents 
+
 ​${table}
 ​
-## Installation
-​
-To install necessary dependencies, run the following command:
-​
 ${data.installation}
-​
-## Usage
 
 ${data.usage}
 ​
-## License
-​
-This project is licensed under the ${data.licence} license.
+${data.licence} 
   
-## Contributing
-​
-GitHub + NodeJS + Git + Javascript + Hands
-​
-## Tests
-​
-To run tests, run the following command:
-​Insta
-
-npm test
-​
-## Questions
-​
 <img src="${data.avatar_url}" alt="avatar" style="border-radius: 16px" width="30" />
 ​
-If you have any questions about the repo, open an issue or contact [clam1987](https://api.github.com/users/clam1987) directly at null.
+If you have any questions about the repo, open an issue or contact [JoanneUK](https://api.github.com/users/JoanneUK) directly at null.
   `
   fs.writeFile(`${data.title}.md`, content, function (err) {//asynch
     if (err) throw err;
