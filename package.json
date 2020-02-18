@@ -1,0 +1,26 @@
+{
+  "name": "Homework7",
+  "version": "1.0.0",
+  "description": "Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^3.0.0",
+    "inquirer": "^7.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoanneUK/Homework7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoanneUK/Homework7/issues"
+  },
+  "homepage": "https://github.com/JoanneUK/Homework7#readme"
+}
